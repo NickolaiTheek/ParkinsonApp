@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "generatedAt": "2025-05-22T07:28:27.701Z",
+    "tasksAnalyzed": 14,
+    "thresholdScore": 5,
+    "projectName": "Taskmaster",
+    "usedResearch": true
+  },
+  "complexityAnalysis": [
+    {
+      "taskId": 2,
+      "taskTitle": "User Authentication System",
+      "complexityScore": 7,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Break down the user authentication system implementation into detailed steps, including UI design, backend integration, and security considerations.",
+      "reasoning": "This task involves complex security implementations, multiple user roles, and integration with Supabase, requiring careful planning and execution."
+    },
+    {
+      "taskId": 3,
+      "taskTitle": "User Profile Management",
+      "complexityScore": 6,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Outline the specific steps for creating a comprehensive user profile management system, including data schema design, UI components, and data persistence.",
+      "reasoning": "While less complex than authentication, this task still requires careful data modeling and UI design for a smooth user experience."
+    },
+    {
+      "taskId": 4,
+      "taskTitle": "Patient-Caregiver Linking System",
+      "complexityScore": 5,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Detail the process of implementing the patient-caregiver linking system, including QR code generation, invitation workflow, and database relationship management.",
+      "reasoning": "This task involves some complexity in managing relationships and generating secure linking codes, but is more straightforward than full authentication systems."
+    },
+    {
+      "taskId": 5,
+      "taskTitle": "Medication Library and Management",
+      "complexityScore": 8,
+      "recommendedSubtasks": 7,
+      "expansionPrompt": "Break down the implementation of the medication management system, including database design, UI for medication input, scheduling logic, and data visualization.",
+      "reasoning": "This task is highly complex due to the need for accurate medication tracking, complex scheduling, and potential health implications of errors."
+    },
+    {
+      "taskId": 6,
+      "taskTitle": "Medication Reminder System",
+      "complexityScore": 7,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Outline the steps to create a robust medication reminder system, including notification scheduling, user interaction for medication tracking, and adherence reporting.",
+      "reasoning": "This task requires careful timing and reliability for notifications, as well as complex logic for tracking medication adherence."
+    },
+    {
+      "taskId": 7,
+      "taskTitle": "Health Metrics Tracking System",
+      "complexityScore": 7,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Detail the implementation of the health metrics tracking system, including data input methods, storage, retrieval, and visualization of various health indicators.",
+      "reasoning": "This task involves handling diverse types of health data, requiring flexible data structures and complex visualization components."
+    },
+    {
+      "taskId": 8,
+      "taskTitle": "Notification System Infrastructure",
+      "complexityScore": 8,
+      "recommendedSubtasks": 7,
+      "expansionPrompt": "Break down the steps to implement a comprehensive notification system, including setup for different platforms, user preferences, and reliable delivery mechanisms.",
+      "reasoning": "Building a robust notification system across platforms with user customization options is a complex task requiring careful architecture and testing."
+    },
+    {
+      "taskId": 9,
+      "taskTitle": "Exercise Recommendation System",
+      "complexityScore": 6,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Outline the process of creating an exercise recommendation system, including content management, categorization, and personalized suggestions based on user profiles.",
+      "reasoning": "While involving some complexity in recommendation algorithms, this task is more straightforward in terms of data management and UI implementation."
+    },
+    {
+      "taskId": 10,
+      "taskTitle": "Journal Feature Implementation",
+      "complexityScore": 6,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Detail the steps to implement a comprehensive journaling system, including data structure for entries, media attachments, and user interface for daily logging.",
+      "reasoning": "This task requires careful consideration of data storage and retrieval, as well as a user-friendly interface for regular use, but is not as complex as some other features."
+    },
+    {
+      "taskId": 11,
+      "taskTitle": "Appointment Management System",
+      "complexityScore": 6,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the implementation of the appointment management system, including scheduling interface, calendar integration, and reminder functionality.",
+      "reasoning": "While requiring integration with the notification system and careful date/time handling, this task is relatively straightforward in its core functionality."
+    },
+    {
+      "taskId": 12,
+      "taskTitle": "Parkinson's Assessment Interface",
+      "complexityScore": 5,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Outline the steps to create the Parkinson's assessment interface, including questionnaire design, data storage, and integration of educational content.",
+      "reasoning": "This task is primarily focused on UI design and data collection, with less complex backend requirements compared to other features."
+    },
+    {
+      "taskId": 13,
+      "taskTitle": "Caregiver Monitoring Dashboard",
+      "complexityScore": 7,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Detail the implementation of the caregiver dashboard, including data aggregation from various sources, alert system, and actionable insights generation.",
+      "reasoning": "This task requires integration of multiple data sources and complex data processing to provide meaningful insights, increasing its complexity."
+    },
+    {
+      "taskId": 14,
+      "taskTitle": "Accessibility Implementation",
+      "complexityScore": 8,
+      "recommendedSubtasks": 7,
+      "expansionPrompt": "Break down the process of implementing comprehensive accessibility features, including screen reader support, voice commands, and UI adaptations for various impairments.",
+      "reasoning": "Ensuring full accessibility across the app is a complex task requiring careful consideration of various user needs and extensive testing."
+    },
+    {
+      "taskId": 15,
+      "taskTitle": "Offline Functionality and Data Synchronization",
+      "complexityScore": 9,
+      "recommendedSubtasks": 8,
+      "expansionPrompt": "Outline the steps to implement robust offline functionality and data synchronization, including local storage, conflict resolution, and efficient syncing mechanisms.",
+      "reasoning": "This task is highly complex due to the need for reliable data persistence, handling potential conflicts, and ensuring seamless user experience in varying network conditions."
+    }
+  ]
+}

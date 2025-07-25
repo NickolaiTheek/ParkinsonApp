@@ -1,0 +1,89 @@
+# Product Requirements Document: Parkinson's Management App
+
+## Overview
+A comprehensive mobile application for Parkinson's disease patients and their caregivers. The app will help patients manage medications, track health metrics, follow recommended exercises, journal symptoms, and manage appointments. Caregivers will be able to monitor patient adherence and receive alerts when intervention may be needed.
+
+## Target Users
+- Primary Users: Individuals diagnosed with Parkinson's disease
+- Secondary Users: Caregivers and family members supporting Parkinson's patients
+- Tertiary Users: Healthcare providers monitoring patient progress
+
+## Technical Requirements
+- Platform: React Native with Expo Go for cross-platform compatibility
+- Backend: Supabase for authentication, database, storage and serverless functions
+- UI Framework: React Native Paper for accessible, modern interface design
+- Notifications: Expo Push Notifications for medication reminders and caregiver alerts
+- Media: YouTube embedded exercise videos
+
+## User Stories and Requirements
+
+### Core Feature 1: User Authentication and Profile System
+- Implement dual-role authentication (Patient/Caregiver)
+- Create profile setup with basic health information collection
+- Develop patient-caregiver linking system using QR codes and invitation codes
+- Support multiple caregiver connections for a single patient
+- Store user preferences and settings
+
+### Core Feature 2: Medication Management System
+- Create customizable medication library with dosage and timing information
+- Implement scheduling system for medication reminders
+- Develop adherence tracking to record taken/missed medications
+- Design escalating notification system for missed medications
+- Create caregiver notification mechanism after three missed reminders
+
+### Core Feature 3: Health Metrics Tracking
+- Implement input forms for vital signs (blood pressure, weight, etc.)
+- Create symptom severity tracking (tremors, stiffness, balance issues)
+- Develop visualization with charts showing weekly/monthly trends
+- Implement progress indicators for key health metrics
+- Generate exportable reports for healthcare provider visits
+
+### Core Feature 4: Exercise Recommendation System
+- Create a library of curated YouTube exercise videos for Parkinson's patients
+- Implement categorization by symptom focus and difficulty level
+- Develop in-app YouTube video playback integration
+- Track exercise completion and frequency
+- Show personalized recommendations based on patient profile
+
+### Core Feature 5: Journal Feature
+- Implement daily mood and symptom recording
+- Support photo attachments for physical symptom documentation
+- Develop voice-to-text functionality for easier input
+- Create calendar interface for reviewing past entries
+- Enable selective sharing with healthcare providers
+
+### Core Feature 6: Appointment Management
+- Implement doctor/therapy appointment scheduling
+- Create notification system for upcoming appointments
+- Develop note-taking for pre/post appointment information
+- Maintain history of past medical visits
+- Allow export of relevant health data before appointments
+
+### Core Feature 7: Parkinson's Assessment Interface (UI Only)
+- Develop symptom questionnaire screens
+- Create placeholder for future ML prediction results
+- Implement educational content about Parkinson's symptoms
+- Include links to reputable medical resources
+- Design intuitive input methods for motor-impaired users
+
+### Core Feature 8: Notification System
+- Implement medication reminders based on schedule
+- Develop escalation logic for missed medications
+- Create cross-device alerts using Expo Push
+- Implement appointment reminders
+- Allow customization of notification types and timing
+
+## Non-Functional Requirements
+- Accessibility: Large touch targets and high contrast options for users with motor difficulties
+- Performance: Offline functionality for critical features
+- Security: HIPAA-compliant data storage and transmission
+- Reliability: Graceful error handling for network issues
+- Usability: Intuitive interface with minimal learning curve for elderly users
+
+## Milestones and Deliverables
+1. Project Setup and Authentication System
+2. Medication Management and Health Tracking
+3. Exercise Recommendations and Journal Features
+4. Appointment Management and Assessment Interface
+5. Notification System and Caregiver Features
+6. Testing and Refinement 

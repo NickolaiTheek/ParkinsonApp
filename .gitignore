@@ -1,0 +1,112 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+.env
+
+# typescript
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+
+# Supabase
+.supabase/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+
+# Environment variables
+.env
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS specific
+.DS_Store
+
+# Task files
+tasks.json
+tasks/
+
+# Test coverage
+coverage/
+.coverage
+htmlcov/
+jest-coverage/
+test-results/
+
+# Build and temp directories
+build/
+temp/
+tmp/
+*.tmp
+temp_assets/
+
+# Additional React Native specific
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+
+# Expo
+.expo-shared/
+*.jks
+*.p12
+*.p8
+*.mobileprovision
+*.p12
+*.cer
+
+# Local Files
+local.properties
+*.local
+
+# Lock files (uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+
+# Cache
+.cache/
+.npm/
+.eslintcache
